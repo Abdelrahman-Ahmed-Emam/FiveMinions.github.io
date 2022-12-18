@@ -1,0 +1,261 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #FFFF00;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    padding-left: 100px 200px;
+    justify-content: space-between;
+}
+
+
+.logo {
+    font-family: 'Algerian','STCaiyun',sans-serif;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4em;
+    padding-left: 50px;
+}
+
+.navigation a {
+    color: #808080;
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 20px;
+}
+
+    .navigation a:hover {
+        color: #000000;
+    }
+
+section {
+    padding-left: 10px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 150vh;
+    display: flex;
+    align-items: center;
+    background: url(Objects/MinionsHanging.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 70px;
+}
+
+    .main h2 {
+        color: #000000;
+        font-size: 3em;
+        font-weight: 600;
+    }
+
+        .main h2 span {
+            display: inline-block;
+            margin-top: 20px;
+            color: #00000F;
+            font-size: 1em;
+            font-weight: 100;
+        }
+
+.main-btn {
+    color: #000000;
+    background-color: #FFFF00;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    transition: 0.7s ease;
+}
+
+    .main-btn:hover {
+        background-color: #FFFF00;
+        transform: scale(1.2);
+    }
+
+.social-icons a {
+    color: #FFFFFF;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #FFFF00;
+    font-size: 2em;
+    font-weight: 600;
+    background-color: #000000;
+   
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 400px;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+}
+
+
+
+.Sub-menu
+{
+    display: none;
+    
+}
+.navigation ul li:hover .Sub-menu
+{
+    display: block;
+    position: absolute;
+    background-color: #FFFF00;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-bottom: #808080;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    
+    
+}
+.navigation ul li:hover .Sub-menu .only
+{
+    margin-bottom: 30px;
+}
+
+
+.Sub-menu ul 
+{
+    display: block;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+    .info h3 {
+        color: #000000;
+        font-size: 1.3em;
+        font-weight: 600;
+        margin: 10px;
+    }
+
+
+
+
+
+
+.Videos {
+    /* background-color: #FFD700; */
+    background-image: linear-gradient(#00EAE6,#46EA00,#ECF016);
+    
+}
+
+
+
+.Video-Card {
+    border: 4px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+     margin: 20px; 
+    background-color: #FFFFFF;
+}
+
+.The-Video {
+    width: 100%;
+}
+
+.Video-info {
+    padding: 1em;
+    text-align: center;
+}
+
+.Video-text {
+    font-style: bold;
+    font-family: 'STCaiyun','serif';
+}
+
+.Video-info:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.Sub-title {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(0, 153, 255, 0.993);
+}
+
+.footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+    .footer-title span {
+        color: #FFFF00;
+    }
+
+
